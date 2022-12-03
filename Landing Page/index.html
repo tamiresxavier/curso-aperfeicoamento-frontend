@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/930798ede3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projetos</a></li>
+            </ul>
+
+            <div class="alterar-tema">
+                <button onclick="alterarTema()" >Tema</button>
+            </div>
+        </nav>
+
+        <header class="header">
+            <div class="apresentacao">
+                <div class="mensagem">
+                    <p>Dev <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>    
+                </div>
+
+               <div>
+                    <h3>Tamires Xavier de Sousa/h3>
+                    <h4>Graduando em Análise e Desenvolvimento de Sistemas
+                    </h4>
+               </div>
+
+               <div class="redes-sociais">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+
+               </div>
+
+            </div>
+
+            <div class="imagem">
+                <img src="./Imagem/img.png" alt="Tecnologias HTML CSS e JS">
+            </div>
+        </header>
+
+        <section class="projetos">
+            <h2 class="projetos-titulo">Projetos</h2>
+            
+            <ul>
+                <li class="projetos-itens">
+                    <a target="_blank" href="https://codepen.io/DCSA96/pen/qBKQdgL">Conversor</a>
+                    <button id="1" onclick="mostrar(id)" class="minimizar">Mostrar</button>
+
+                    <div id="codigo-1" class="codigos">
+                        <iframe height="300" style="width: 100%;" scrolling="no" title="Calculadora IMC" src="https://codepen.io/DCSA96/embed/qBKQdgL?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                            See the Pen <a href="https://codepen.io/DCSA96/pen/qBKQdgL">
+                            Calculadora IMC</a> by DÃ©bora Cristiane (<a href="https://codepen.io/DCSA96">@DCSA96</a>)
+                            on <a href="https://codepen.io">CodePen</a>.
+                          </iframe>
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <footer>
+            <p>&copy; Todos os direitos reservados. Site Desenvolvido no Curso de Aperfeiçoamento em Desenvolvimento Web Basico</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

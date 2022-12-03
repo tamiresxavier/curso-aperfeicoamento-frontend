@@ -1,0 +1,35 @@
+body.dark{
+    background-color: #7c4166;
+}
+
+
+.dark .header{
+    background-color: #722b59;
+   
+}
+
+.dark .header .apresentacao, .dark .header .apresentacao h3, .dark .header .apresentacao h4, .dark .header .apresentacao i{
+    color: rgb(15, 12, 15);
+}
+
+.dark .projetos{
+    background-color: #8d27914f;
+}
+
+.dark .projetos a, .dark .projetos-titulo{
+    color:rgb(22, 10, 22) ;
+}
+
+.dark .menu, .dark footer{
+    background-color: rgb(100, 22, 94);
+}
+
+.dark .menu ul li a, .dark footer p{
+    color: rgb(24, 22, 23);
+}
+
+.dark button, .dark .projetos-itens .minimizar{
+    color: rgb(19, 8, 18);
+    background-color: rgb(179, 98, 152);
+    border: 3px solid rgb(37, 2, 27);
+}
